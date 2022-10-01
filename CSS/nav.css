@@ -1,0 +1,327 @@
+body{
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    background-color: silver;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+}
+.nav{
+    justify-content: center;
+}
+.nav>ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+ul li{
+    padding: 0px 10px;
+}
+ul li a{
+    -webkit-tap-highlight-color: transparent;
+    padding: 4px 4px;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size:medium;
+    text-decoration: none;
+    border-radius:15px ;
+    transition-duration: .5s;
+}
+ul li a:hover{
+    -webkit-tap-highlight-color: transparent;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 1px 1px rgb(0, 0, 0);
+}
+
+.logo {
+    margin-top: 5px;
+}
+@media only screen and (max-width:541px) {
+    body{
+        -webkit-tap-highlight-color: transparent;
+        margin: 0;
+        background-color: silver;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+    }
+    .nav{
+        justify-content: center;
+    }
+    .nav>ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding-left: 0px;
+        justify-content: center;
+    }
+    ul li{
+        padding: 0px 10px;
+    }
+    ul li a{
+        -webkit-tap-highlight-color: transparent;
+        padding: 4px 4px;
+        color: black;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        font-size:medium;
+        text-decoration: none;
+        border-radius:15px ;
+        transition-duration: .5s;
+    }
+    ul li a:hover{
+        -webkit-tap-highlight-color: transparent;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 2px 1px 1px rgb(0, 0, 0);
+    }
+    
+    .logo {
+        text-align: center;
+        margin-top: 3px;
+    }  
+}
+@media only screen and (max-width:257px){
+    body{
+        -webkit-tap-highlight-color: transparent;
+        margin: 0;
+        background-color: silver;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+    }
+    .nav{
+        margin: 0px 0px;
+        /* justify-content: center; */
+    }
+    .nav>ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding-left: 0px;
+        justify-content: center;
+    }
+    ul li{
+        padding: 0px 5px;
+    }
+    ul li a{
+        -webkit-tap-highlight-color: transparent;
+        padding: 4px 4px;
+        color: black;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        font-size:small;
+        text-decoration: none;
+        border-radius:15px ;
+        transition-duration: .5s;
+    }
+    ul li a:hover{
+        -webkit-tap-highlight-color: transparent;
+        background-color: black;
+        color: white;
+        box-shadow: 2px 2px 1px 1px rgb(0, 0, 0);
+    }
+    
+    .logo {
+        text-align: center;
+        margin-top: 3px;
+    }  
+    .logo svg{
+        width: 22px;
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width:195px) {
+    body{
+        -webkit-tap-highlight-color: transparent;
+        margin: 0;
+        background-color: silver;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+    }
+    .nav{
+        margin: 0px 0px;
+        /* justify-content: center; */
+    }
+    .nav>ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding-left: 0px;
+        justify-content: center;
+    }
+    ul li{
+        padding: 0px 2px;
+    }
+    ul li a{
+        -webkit-tap-highlight-color: transparent;
+        padding: 4px 4px;
+        color: black;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        font-size:small;
+        text-decoration: none;
+        border-radius: 0px;
+        /* border-bottom:2px solid black ;*/
+        padding-bottom: 0px; 
+        transition-duration: .5s;
+    }
+    ul li a:hover{
+        -webkit-tap-highlight-color: transparent;
+        background-color: white;
+        border-bottom:2px solid black ;
+        padding-bottom: 6px;
+        color: black;
+        box-shadow:none;
+    }
+    
+    .logo {
+        text-align: center;
+        margin-top: 3px;
+    }  
+    .logo svg{
+        width: 22px;
+        height: 20px;
+    }
+}
+@media only screen and (max-width:177px){
+    body{
+        -webkit-tap-highlight-color: transparent;
+        margin: 0;
+        background-color: silver;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+    }
+    .nav{
+        margin: 0px 0px;
+        /* justify-content: center; */
+    }
+    .nav>ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding-left: 0px;
+        justify-content: center;
+    }
+    ul li{
+        padding: 0px 2px;
+    }
+    ul li a{
+        -webkit-tap-highlight-color: transparent;
+        padding: 4px 4px;
+        color: black;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        font-size:small;
+        text-decoration: none;
+        border-radius: 0px;
+        /* border-bottom:2px solid black ;*/
+        padding-bottom: 0px; 
+        transition-duration: .5s;
+    }
+    ul li a:hover{
+        -webkit-tap-highlight-color: transparent;
+        background-color: white;
+        border-bottom:2px solid black ;
+        padding-bottom: 6px;
+        color: black;
+        box-shadow:none;
+    }
+    
+    .logo {
+        text-align: center;
+        margin-top: 3px;
+    }  
+    .logo svg{
+        width: 22px;
+        height: 20px;
+    }
+    ul > li > a > span{
+        display: none;
+    }
+}
+@media only screen and (max-width:136px){
+    body{
+        -webkit-tap-highlight-color: transparent;
+        margin: 0;
+        background-color: silver;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        position: absolute;
+    }
+    .nav{
+        margin: -10px 0px;
+        /* justify-content: center; */
+    }
+    .nav>ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding-left: 0px;
+        justify-content: center;
+    }
+    ul li{
+        padding: 0px 0px;
+    }
+    ul li a{
+        -webkit-tap-highlight-color: transparent;
+        padding: 0px 4px;
+        color: black;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        font-size:xx-small;
+        text-decoration: none;
+        border-radius: 0px;
+        padding-bottom: 0px; 
+        transition-duration: .5s;
+    }
+    ul li a:hover{
+        -webkit-tap-highlight-color: transparent;
+        background-color: white;
+        border-bottom:2px solid black ;
+        padding-bottom: 5px;
+        color: black;
+        box-shadow:none;
+    }
+    
+    .logo {
+        text-align: center;
+        margin-top: 1px;
+    }  
+    .logo svg{
+        width: 15px;
+        height: 15px;
+    }
+    ul > li > a > span{
+        display: none;
+    }
+}
